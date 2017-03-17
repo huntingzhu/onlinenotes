@@ -1,4 +1,4 @@
-# onlinenotes
+# Online notes App
 This is an online notes app based on browser.
 Website: http://hunting.thecompletewebhosting.com/noteapp
 
