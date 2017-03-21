@@ -112,7 +112,7 @@ if($count == 1){
                 <ul class="nav navbar-nav">
 
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="https://huntingzhu.github.io" target="_blank">Contact</a>
                     </li>
 
                     <li>
@@ -281,7 +281,8 @@ if($count == 1){
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Online Notes 2017 by Hunting</p>
+          <p>Copyright &copy; Online Notes
+            <br /> Designed by Hunting</p>
         </div>
     </footer>
 

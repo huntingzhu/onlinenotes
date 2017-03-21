@@ -158,6 +158,27 @@ a:focus {
   -o-background-size: cover;
 }
 
+.section-padding
+{
+	padding: 60px;
+}
+
+.img
+{
+	margin-top: 30px;
+}
+.img i
+{
+	font-size: 44px;
+}
+
+.fadeInBlock-1,
+.fadeInBlock-2,
+.fadeInBlock-3,
+.fadeInBlock-4  {
+    opacity:0;
+}
+
 .intro .container {
   display: table-cell;
   vertical-align: middle;
@@ -362,6 +383,32 @@ ul.banner-social-buttons {
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
   }
+}
+.about-text {
+  padding-left: 30px;
+}
+
+.about-text h2{
+  font:"Lucida Grande", Helvetica, Arial, sans-serif;
+  padding-top: 42px;
+}
+
+.about-text p {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.about-image img {
+  border-right: 6px solid white;
+  border-radius: 5px;
+  padding-right: 12px;
+  margin-top: 30px;
+}
+
+.author {
+  background: rgba(60, 60, 60, 0.5);
+  border: 2px solid white;
+  border-radius: 10px;
 }
 footer {
   padding: 20px 0;

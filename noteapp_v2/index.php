@@ -90,7 +90,7 @@ include('remember.php');
                   <p class="intro-text">Your Private Notes with you wherever you go.</p>
 
                   <button type="button" class="btn btn-default btn-lg" data-target="#signupModal" data-toggle="modal">
-                     <span class="network-name">Sign Up and Login!</span>
+                     <span class="network-name animated">Sign Up and Login!</span>
                   </button>
 
                   <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
@@ -232,51 +232,91 @@ include('remember.php');
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-              <h2>About Online Notes App</h2>
-              <p>Remian to be done.</p>
-              <p>Remian to be done.</p>
-              <p>Remian to be done.</p>
-              <p>Remian to be done.</p>
-              <p>Remian to be done.</p>
-
+    <section id="about" class="about section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 text-center">
+              <div>
+                <h2>About Online Notes</h2>
+                <p>Online notes app is your private notebook on the cloud. It is beautiful, secure and easy to use.</p>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 fadeInBlock-1">
+                <div class="img">
+                  <i class="fa fa-refresh"></i>
+                </div>
+                <h3>Auto refresh</h3>
+                <p>Online notes app will store your notes on the cloud every time you update it. And refresh your notes list immediately!</p>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 fadeInBlock-2">
+                <div class="img">
+                  <i class="fa fa-eye"></i>
+                </div>
+                <h3>Strong security</h3>
+                <p>Use several strong encoding algorithms to secure your account security and no one can peak your notes except yourself. Every time your login email or your password changed you will
+                    receive a confirmation email.</p>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 fadeInBlock-3">
+                <div class="img">
+                  <i class="fa fa-cogs"></i>
+                </div>
+                <h3>Tech stack</h3>
+                <p>Implement the style and animation of the front-end page by using <strong><i>Bootstrap and jQuery</i></strong>. And I deploy the back-end software on <strong><i>LiteSpeed</i></strong> server by using <strong><i>PHP</i></strong>.
+                  The data of users are stored on the <strong><i>MySQL database</i></strong> of the server.</p>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 fadeInBlock-4">
+                <div class="img">
+                  <i class="fa fa-dot-circle-o"></i>
+                </div>
+                <h3>My Objective</h3>
+                <p>The purpose of developing this Online Notes App is to practice building a real-world project, including the front-end and the back-end programs, and to learn how to store and fetch data via MySQL database.</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-
-    </section>
+      </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-              <h2>About Online Notes App</h2>
-              <p>Remian to be done.</p>
-              <p>Remian to be done.</p>
-              <p>Remian to be done.</p>
-              <p>Remian to be done.</p>
-              <p>Remian to be done.</p>
+        <h2>The author</h2>
+        <div class="row author">
+          <div class="col-md-5 col-sm-6">
+                    <div class="fadeInBlock-2 about-text">
+                         <h2>Hello, that's me!</h2>
+                         <div>
+                              <p>I'm a 22-year-old graduate CS student of USC, and I really love to design various web apps, because they help me master lots of up-to-date techs! The following link
+                                is <a href="https://huntingzhu.github.io" target="_blank">my personal web page</a>. Feel free to chat with me!</p>
+                              <p>It has a lot of fun during the development process of this Online Notes App. And this app includes various technologies.</p>
+                              <p>The uplifting thing is, I have opened the source code of this app to Github, you can view it at <a href="https://github.com/huntingzhu/onlinenotes" target="_blank">huntingzhu/onlinenotes</a>.</p>
 
-          </div>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="col-md-offset-1 col-md-6 col-sm-6">
+                    <!-- ABOUT IMAGE HERE -->
+                    <div class="fadeInBlock-3 about-image">
+                         <img src="img/small-me.jpg" class="img-responsive" alt="HuntingZhu">
+                         <h3>Hongzhao Zhu</h3>
+                    </div>
+               </div>
         </div>
 
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
+                <br/><br/>
                 <h2>Contact Me</h2>
-                <p>Feel free to email me to provide some feedback, or just say hello!</p>
-                <p><a href="mailto:huntingzhu@gmail.com">huntingzhu@gmail.com</a>
-                  <p><a href="mailto:onlinenotes@hunting.thecompletewebhosting.com">onlinenotes@hunting.thecompletewebhosting.com</a>
+                <p>Hope you guys will love implementing this app by yourself. <br>
+                  If you have questions, feel free to email me!</p>
+                <p><a href="mailto:huntingzhu@gmail.com">huntingzhu@gmail.com</a><br />
+                  <a href="mailto:hongzhaz@usc.edu">hongzhaz@usc.edu</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="#contact" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        <a href="https://www.facebook.com/hongzhao.zhu" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
                     </li>
                     <li>
-                        <a href="#contact" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        <a href="https://github.com/huntingzhu" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
 
                 </ul>
@@ -289,7 +329,8 @@ include('remember.php');
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Online Notes 2017 by Hunting</p>
+            <p>Copyright &copy; Online Notes
+              <br /> Designed by Hunting</p>
         </div>
     </footer>
 
@@ -303,10 +344,11 @@ include('remember.php');
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
     <!-- Ajax JavaScript -->
-    <script src="js/index.js"></script>
+    <script src="js/modalajax.js"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/onlinenotes.js"></script>
+
 
 
 
