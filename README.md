@@ -1,5 +1,5 @@
 # Online notes App
-This is an online notes app based on browser.\n
+This is an online notes app based on browser. 
 Website: http://hunting.thecompletewebhosting.com/noteapp
 
 
@@ -22,5 +22,5 @@ This version is v2.
 3. User cannot modify the font style of the notes. This point needs to be improved.
 
 # Contact
-My email: huntingzhu@gmail.com\n
+My email: huntingzhu@gmail.com
 Welcome to contact me!
