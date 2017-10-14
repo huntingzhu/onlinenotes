@@ -2,6 +2,7 @@
 This is an online notes app based on browser.
 
 **Website**: http://hunting.thecompletewebhosting.com/noteapp
+
 **Demo Video Link**: [https://www.youtube.com/watch?v=YDqRt6z8Fig](https://www.youtube.com/watch?v=YDqRt6z8Fig)
 
 ## Features:
